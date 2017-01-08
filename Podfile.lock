@@ -1,0 +1,12 @@
+PODS:
+  - UMengAnalytics-NO-IDFA (4.1.5)
+
+DEPENDENCIES:
+  - UMengAnalytics-NO-IDFA
+
+SPEC CHECKSUMS:
+  UMengAnalytics-NO-IDFA: f1b08b540eba6ebad044a574cae6d988cf40cfda
+
+PODFILE CHECKSUM: 1d3cecfa5f0aa94cf1d8e154fb89b6b56438453b
+
+COCOAPODS: 1.1.1

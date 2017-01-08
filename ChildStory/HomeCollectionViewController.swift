@@ -63,7 +63,7 @@ class HomeCollectionViewController: UICollectionViewController {
 //        print(cell)
         
         // Configure the cell
-        let name:String = String(format: "i/%02d.png", indexPath.row+1)
+        let name:String = String(format: "%02d.png", indexPath.row+1)
         let sname = arrVedioName[indexPath.row]
         
         // iphone6 414x736 360x640
@@ -125,7 +125,7 @@ class HomeCollectionViewController: UICollectionViewController {
         let tname = arrVedioName[indexPath.row]
 
         // Video file
-        let videoFile = Bundle.main.path(forResource: "m/"+tname, ofType: ".mp4")
+        let videoFile = Bundle.main.path(forResource: ""+tname, ofType: ".mp4")
         
         // Subtitle file
         //        let subtitleFile = Bundle.main.path(forResource: "trailer_720p", ofType: "srt")

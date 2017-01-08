@@ -12,9 +12,95 @@
 		0B2AB9DC1E22BCF4005418C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AB9DA1E22BCF4005418C8 /* Main.storyboard */; };
 		0B2AB9DE1E22BCF4005418C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AB9DD1E22BCF4005418C8 /* Assets.xcassets */; };
 		0B2AB9E11E22BCF4005418C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AB9DF1E22BCF4005418C8 /* LaunchScreen.storyboard */; };
+		0BE824B71E22BFA30014F9C7 /* ArrData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE824B61E22BFA30014F9C7 /* ArrData.swift */; };
+		0BE824BB1E22BFB70014F9C7 /* BootstrapBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE824B81E22BFB70014F9C7 /* BootstrapBtn.swift */; };
+		0BE824BC1E22BFB70014F9C7 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE824B91E22BFB70014F9C7 /* HomeCollectionViewController.swift */; };
+		0BE824BD1E22BFB70014F9C7 /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE824BA1E22BFB70014F9C7 /* Subtitles.swift */; };
+		0BE824E71E22BFBF0014F9C7 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824BF1E22BFBF0014F9C7 /* 01.png */; };
+		0BE824E81E22BFBF0014F9C7 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C01E22BFBF0014F9C7 /* 02.png */; };
+		0BE824E91E22BFBF0014F9C7 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C11E22BFBF0014F9C7 /* 03.png */; };
+		0BE824EA1E22BFBF0014F9C7 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C21E22BFBF0014F9C7 /* 04.png */; };
+		0BE824EB1E22BFBF0014F9C7 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C31E22BFBF0014F9C7 /* 05.png */; };
+		0BE824EC1E22BFBF0014F9C7 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C41E22BFBF0014F9C7 /* 06.png */; };
+		0BE824ED1E22BFBF0014F9C7 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C51E22BFBF0014F9C7 /* 07.png */; };
+		0BE824EE1E22BFBF0014F9C7 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C61E22BFBF0014F9C7 /* 08.png */; };
+		0BE824EF1E22BFBF0014F9C7 /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C71E22BFBF0014F9C7 /* 09.png */; };
+		0BE824F01E22BFBF0014F9C7 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C81E22BFBF0014F9C7 /* 10.png */; };
+		0BE824F11E22BFBF0014F9C7 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824C91E22BFBF0014F9C7 /* 11.png */; };
+		0BE824F21E22BFBF0014F9C7 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CA1E22BFBF0014F9C7 /* 12.png */; };
+		0BE824F31E22BFBF0014F9C7 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CB1E22BFBF0014F9C7 /* 13.png */; };
+		0BE824F41E22BFBF0014F9C7 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CC1E22BFBF0014F9C7 /* 14.png */; };
+		0BE824F51E22BFBF0014F9C7 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CD1E22BFBF0014F9C7 /* 15.png */; };
+		0BE824F61E22BFBF0014F9C7 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CE1E22BFBF0014F9C7 /* 16.png */; };
+		0BE824F71E22BFBF0014F9C7 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824CF1E22BFBF0014F9C7 /* 17.png */; };
+		0BE824F81E22BFBF0014F9C7 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D01E22BFBF0014F9C7 /* 18.png */; };
+		0BE824F91E22BFBF0014F9C7 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D11E22BFBF0014F9C7 /* 19.png */; };
+		0BE824FA1E22BFBF0014F9C7 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D21E22BFBF0014F9C7 /* 20.png */; };
+		0BE824FB1E22BFBF0014F9C7 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D31E22BFBF0014F9C7 /* 21.png */; };
+		0BE824FC1E22BFBF0014F9C7 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D41E22BFBF0014F9C7 /* 22.png */; };
+		0BE824FD1E22BFBF0014F9C7 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D51E22BFBF0014F9C7 /* 23.png */; };
+		0BE824FE1E22BFBF0014F9C7 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D61E22BFBF0014F9C7 /* 24.png */; };
+		0BE824FF1E22BFBF0014F9C7 /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D71E22BFBF0014F9C7 /* 25.png */; };
+		0BE825001E22BFBF0014F9C7 /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D81E22BFBF0014F9C7 /* 26.png */; };
+		0BE825011E22BFBF0014F9C7 /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824D91E22BFBF0014F9C7 /* 27.png */; };
+		0BE825021E22BFBF0014F9C7 /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DA1E22BFBF0014F9C7 /* 28.png */; };
+		0BE825031E22BFBF0014F9C7 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DB1E22BFBF0014F9C7 /* 29.png */; };
+		0BE825041E22BFBF0014F9C7 /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DC1E22BFBF0014F9C7 /* 30.png */; };
+		0BE825051E22BFBF0014F9C7 /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DD1E22BFBF0014F9C7 /* 31.png */; };
+		0BE825061E22BFBF0014F9C7 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DE1E22BFBF0014F9C7 /* 32.png */; };
+		0BE825071E22BFBF0014F9C7 /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824DF1E22BFBF0014F9C7 /* 33.png */; };
+		0BE825081E22BFBF0014F9C7 /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E01E22BFBF0014F9C7 /* 34.png */; };
+		0BE825091E22BFBF0014F9C7 /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E11E22BFBF0014F9C7 /* 35.png */; };
+		0BE8250A1E22BFBF0014F9C7 /* 36.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E21E22BFBF0014F9C7 /* 36.png */; };
+		0BE8250B1E22BFBF0014F9C7 /* 37.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E31E22BFBF0014F9C7 /* 37.png */; };
+		0BE8250C1E22BFBF0014F9C7 /* 38.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E41E22BFBF0014F9C7 /* 38.png */; };
+		0BE8250D1E22BFBF0014F9C7 /* 39.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E51E22BFBF0014F9C7 /* 39.png */; };
+		0BE8250E1E22BFBF0014F9C7 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE824E61E22BFBF0014F9C7 /* 40.png */; };
+		0BE825381E22BFC60014F9C7 /* 01.小马过河.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825101E22BFC60014F9C7 /* 01.小马过河.mp4 */; };
+		0BE825391E22BFC60014F9C7 /* 02.为什么要刷牙.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825111E22BFC60014F9C7 /* 02.为什么要刷牙.mp4 */; };
+		0BE8253A1E22BFC60014F9C7 /* 03.龟兔赛跑.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825121E22BFC60014F9C7 /* 03.龟兔赛跑.mp4 */; };
+		0BE8253B1E22BFC60014F9C7 /* 04.磨杵成针.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825131E22BFC60014F9C7 /* 04.磨杵成针.mp4 */; };
+		0BE8253C1E22BFC60014F9C7 /* 05.愚公移山.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825141E22BFC60014F9C7 /* 05.愚公移山.mp4 */; };
+		0BE8253D1E22BFC60014F9C7 /* 06.小猫钓鱼.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825151E22BFC60014F9C7 /* 06.小猫钓鱼.mp4 */; };
+		0BE8253E1E22BFC60014F9C7 /* 07.乌鸦喝水.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825161E22BFC60014F9C7 /* 07.乌鸦喝水.mp4 */; };
+		0BE8253F1E22BFC60014F9C7 /* 08.井底之蛙.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825171E22BFC60014F9C7 /* 08.井底之蛙.mp4 */; };
+		0BE825401E22BFC60014F9C7 /* 09.我从哪里来.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825181E22BFC60014F9C7 /* 09.我从哪里来.mp4 */; };
+		0BE825411E22BFC60014F9C7 /* 10.守株待兔.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825191E22BFC60014F9C7 /* 10.守株待兔.mp4 */; };
+		0BE825421E22BFC60014F9C7 /* 11.小猴子下山.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251A1E22BFC60014F9C7 /* 11.小猴子下山.mp4 */; };
+		0BE825431E22BFC60014F9C7 /* 12.青蛙王子.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251B1E22BFC60014F9C7 /* 12.青蛙王子.mp4 */; };
+		0BE825441E22BFC60014F9C7 /* 13.爱护眼睛.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251C1E22BFC60014F9C7 /* 13.爱护眼睛.mp4 */; };
+		0BE825451E22BFC60014F9C7 /* 14.小蝌蚪找妈妈.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251D1E22BFC60014F9C7 /* 14.小蝌蚪找妈妈.mp4 */; };
+		0BE825461E22BFC60014F9C7 /* 15.月亮上的帽子.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251E1E22BFC60014F9C7 /* 15.月亮上的帽子.mp4 */; };
+		0BE825471E22BFC60014F9C7 /* 16.蚂蚁报恩.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8251F1E22BFC60014F9C7 /* 16.蚂蚁报恩.mp4 */; };
+		0BE825481E22BFC60014F9C7 /* 17.孔融让梨.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825201E22BFC60014F9C7 /* 17.孔融让梨.mp4 */; };
+		0BE825491E22BFC60014F9C7 /* 18.狡猾的狐狸.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825211E22BFC60014F9C7 /* 18.狡猾的狐狸.mp4 */; };
+		0BE8254A1E22BFC60014F9C7 /* 19.狼来了.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825221E22BFC60014F9C7 /* 19.狼来了.mp4 */; };
+		0BE8254B1E22BFC60014F9C7 /* 20.皇帝的新装上.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825231E22BFC60014F9C7 /* 20.皇帝的新装上.mp4 */; };
+		0BE8254C1E22BFC60014F9C7 /* 21.皇帝的新装下.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825241E22BFC60014F9C7 /* 21.皇帝的新装下.mp4 */; };
+		0BE8254D1E22BFC60014F9C7 /* 22.抬着驴的父子.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825251E22BFC60014F9C7 /* 22.抬着驴的父子.mp4 */; };
+		0BE8254E1E22BFC60014F9C7 /* 23.狐狸和乌鸦.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825261E22BFC60014F9C7 /* 23.狐狸和乌鸦.mp4 */; };
+		0BE8254F1E22BFC60014F9C7 /* 24.狼和小羊.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825271E22BFC60014F9C7 /* 24.狼和小羊.mp4 */; };
+		0BE825501E22BFC60014F9C7 /* 25.狐狸与葡萄.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825281E22BFC60014F9C7 /* 25.狐狸与葡萄.mp4 */; };
+		0BE825511E22BFC60014F9C7 /* 26.狐假虎威.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825291E22BFC60014F9C7 /* 26.狐假虎威.mp4 */; };
+		0BE825521E22BFC60014F9C7 /* 27.小卡车.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252A1E22BFC60014F9C7 /* 27.小卡车.mp4 */; };
+		0BE825531E22BFC60014F9C7 /* 28.刻舟求剑.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252B1E22BFC60014F9C7 /* 28.刻舟求剑.mp4 */; };
+		0BE825541E22BFC60014F9C7 /* 29.学数学-排序.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252C1E22BFC60014F9C7 /* 29.学数学-排序.mp4 */; };
+		0BE825551E22BFC60014F9C7 /* 30.画蛇添足.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252D1E22BFC60014F9C7 /* 30.画蛇添足.mp4 */; };
+		0BE825561E22BFC60014F9C7 /* 31.不要乱扔垃圾.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252E1E22BFC60014F9C7 /* 31.不要乱扔垃圾.mp4 */; };
+		0BE825571E22BFC60014F9C7 /* 32.盲人摸象.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8252F1E22BFC60014F9C7 /* 32.盲人摸象.mp4 */; };
+		0BE825581E22BFC60014F9C7 /* 33.学数学-对称.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825301E22BFC60014F9C7 /* 33.学数学-对称.mp4 */; };
+		0BE825591E22BFC60014F9C7 /* 34.圆圆的小熊.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825311E22BFC60014F9C7 /* 34.圆圆的小熊.mp4 */; };
+		0BE8255A1E22BFC60014F9C7 /* 35.杯弓蛇影.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825321E22BFC60014F9C7 /* 35.杯弓蛇影.mp4 */; };
+		0BE8255B1E22BFC60014F9C7 /* 36.掩耳盗铃.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825331E22BFC60014F9C7 /* 36.掩耳盗铃.mp4 */; };
+		0BE8255C1E22BFC60014F9C7 /* 37.拔苗助长.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825341E22BFC60014F9C7 /* 37.拔苗助长.mp4 */; };
+		0BE8255D1E22BFC60014F9C7 /* 38.愿望.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825351E22BFC60014F9C7 /* 38.愿望.mp4 */; };
+		0BE8255E1E22BFC60014F9C7 /* 39.学数学-圆形.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825361E22BFC60014F9C7 /* 39.学数学-圆形.mp4 */; };
+		0BE8255F1E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825371E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 */; };
+		F63B585BE6109660709965AB /* libPods-ChildStory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CA3B233DB0F5639FB27279 /* libPods-ChildStory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02CA3B233DB0F5639FB27279 /* libPods-ChildStory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChildStory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2AB9D31E22BCF4005418C8 /* ChildStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2AB9D61E22BCF4005418C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B2AB9D81E22BCF4005418C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +108,93 @@
 		0B2AB9DD1E22BCF4005418C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2AB9E01E22BCF4005418C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2AB9E21E22BCF4005418C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE824B61E22BFA30014F9C7 /* ArrData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrData.swift; sourceTree = "<group>"; };
+		0BE824B81E22BFB70014F9C7 /* BootstrapBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootstrapBtn.swift; sourceTree = "<group>"; };
+		0BE824B91E22BFB70014F9C7 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		0BE824BA1E22BFB70014F9C7 /* Subtitles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitles.swift; sourceTree = "<group>"; };
+		0BE824BF1E22BFBF0014F9C7 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		0BE824C01E22BFBF0014F9C7 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		0BE824C11E22BFBF0014F9C7 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		0BE824C21E22BFBF0014F9C7 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		0BE824C31E22BFBF0014F9C7 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		0BE824C41E22BFBF0014F9C7 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		0BE824C51E22BFBF0014F9C7 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		0BE824C61E22BFBF0014F9C7 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		0BE824C71E22BFBF0014F9C7 /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		0BE824C81E22BFBF0014F9C7 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		0BE824C91E22BFBF0014F9C7 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		0BE824CA1E22BFBF0014F9C7 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		0BE824CB1E22BFBF0014F9C7 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		0BE824CC1E22BFBF0014F9C7 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		0BE824CD1E22BFBF0014F9C7 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		0BE824CE1E22BFBF0014F9C7 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		0BE824CF1E22BFBF0014F9C7 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		0BE824D01E22BFBF0014F9C7 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		0BE824D11E22BFBF0014F9C7 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		0BE824D21E22BFBF0014F9C7 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		0BE824D31E22BFBF0014F9C7 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		0BE824D41E22BFBF0014F9C7 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		0BE824D51E22BFBF0014F9C7 /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		0BE824D61E22BFBF0014F9C7 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		0BE824D71E22BFBF0014F9C7 /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		0BE824D81E22BFBF0014F9C7 /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		0BE824D91E22BFBF0014F9C7 /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		0BE824DA1E22BFBF0014F9C7 /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		0BE824DB1E22BFBF0014F9C7 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		0BE824DC1E22BFBF0014F9C7 /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		0BE824DD1E22BFBF0014F9C7 /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		0BE824DE1E22BFBF0014F9C7 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		0BE824DF1E22BFBF0014F9C7 /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		0BE824E01E22BFBF0014F9C7 /* 34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34.png; sourceTree = "<group>"; };
+		0BE824E11E22BFBF0014F9C7 /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35.png; sourceTree = "<group>"; };
+		0BE824E21E22BFBF0014F9C7 /* 36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36.png; sourceTree = "<group>"; };
+		0BE824E31E22BFBF0014F9C7 /* 37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 37.png; sourceTree = "<group>"; };
+		0BE824E41E22BFBF0014F9C7 /* 38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 38.png; sourceTree = "<group>"; };
+		0BE824E51E22BFBF0014F9C7 /* 39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39.png; sourceTree = "<group>"; };
+		0BE824E61E22BFBF0014F9C7 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		0BE825101E22BFC60014F9C7 /* 01.小马过河.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01.小马过河.mp4"; sourceTree = "<group>"; };
+		0BE825111E22BFC60014F9C7 /* 02.为什么要刷牙.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02.为什么要刷牙.mp4"; sourceTree = "<group>"; };
+		0BE825121E22BFC60014F9C7 /* 03.龟兔赛跑.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03.龟兔赛跑.mp4"; sourceTree = "<group>"; };
+		0BE825131E22BFC60014F9C7 /* 04.磨杵成针.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04.磨杵成针.mp4"; sourceTree = "<group>"; };
+		0BE825141E22BFC60014F9C7 /* 05.愚公移山.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05.愚公移山.mp4"; sourceTree = "<group>"; };
+		0BE825151E22BFC60014F9C7 /* 06.小猫钓鱼.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06.小猫钓鱼.mp4"; sourceTree = "<group>"; };
+		0BE825161E22BFC60014F9C7 /* 07.乌鸦喝水.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07.乌鸦喝水.mp4"; sourceTree = "<group>"; };
+		0BE825171E22BFC60014F9C7 /* 08.井底之蛙.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08.井底之蛙.mp4"; sourceTree = "<group>"; };
+		0BE825181E22BFC60014F9C7 /* 09.我从哪里来.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "09.我从哪里来.mp4"; sourceTree = "<group>"; };
+		0BE825191E22BFC60014F9C7 /* 10.守株待兔.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10.守株待兔.mp4"; sourceTree = "<group>"; };
+		0BE8251A1E22BFC60014F9C7 /* 11.小猴子下山.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "11.小猴子下山.mp4"; sourceTree = "<group>"; };
+		0BE8251B1E22BFC60014F9C7 /* 12.青蛙王子.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12.青蛙王子.mp4"; sourceTree = "<group>"; };
+		0BE8251C1E22BFC60014F9C7 /* 13.爱护眼睛.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "13.爱护眼睛.mp4"; sourceTree = "<group>"; };
+		0BE8251D1E22BFC60014F9C7 /* 14.小蝌蚪找妈妈.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14.小蝌蚪找妈妈.mp4"; sourceTree = "<group>"; };
+		0BE8251E1E22BFC60014F9C7 /* 15.月亮上的帽子.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "15.月亮上的帽子.mp4"; sourceTree = "<group>"; };
+		0BE8251F1E22BFC60014F9C7 /* 16.蚂蚁报恩.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16.蚂蚁报恩.mp4"; sourceTree = "<group>"; };
+		0BE825201E22BFC60014F9C7 /* 17.孔融让梨.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "17.孔融让梨.mp4"; sourceTree = "<group>"; };
+		0BE825211E22BFC60014F9C7 /* 18.狡猾的狐狸.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "18.狡猾的狐狸.mp4"; sourceTree = "<group>"; };
+		0BE825221E22BFC60014F9C7 /* 19.狼来了.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "19.狼来了.mp4"; sourceTree = "<group>"; };
+		0BE825231E22BFC60014F9C7 /* 20.皇帝的新装上.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "20.皇帝的新装上.mp4"; sourceTree = "<group>"; };
+		0BE825241E22BFC60014F9C7 /* 21.皇帝的新装下.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "21.皇帝的新装下.mp4"; sourceTree = "<group>"; };
+		0BE825251E22BFC60014F9C7 /* 22.抬着驴的父子.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "22.抬着驴的父子.mp4"; sourceTree = "<group>"; };
+		0BE825261E22BFC60014F9C7 /* 23.狐狸和乌鸦.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "23.狐狸和乌鸦.mp4"; sourceTree = "<group>"; };
+		0BE825271E22BFC60014F9C7 /* 24.狼和小羊.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "24.狼和小羊.mp4"; sourceTree = "<group>"; };
+		0BE825281E22BFC60014F9C7 /* 25.狐狸与葡萄.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "25.狐狸与葡萄.mp4"; sourceTree = "<group>"; };
+		0BE825291E22BFC60014F9C7 /* 26.狐假虎威.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "26.狐假虎威.mp4"; sourceTree = "<group>"; };
+		0BE8252A1E22BFC60014F9C7 /* 27.小卡车.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "27.小卡车.mp4"; sourceTree = "<group>"; };
+		0BE8252B1E22BFC60014F9C7 /* 28.刻舟求剑.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "28.刻舟求剑.mp4"; sourceTree = "<group>"; };
+		0BE8252C1E22BFC60014F9C7 /* 29.学数学-排序.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "29.学数学-排序.mp4"; sourceTree = "<group>"; };
+		0BE8252D1E22BFC60014F9C7 /* 30.画蛇添足.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "30.画蛇添足.mp4"; sourceTree = "<group>"; };
+		0BE8252E1E22BFC60014F9C7 /* 31.不要乱扔垃圾.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "31.不要乱扔垃圾.mp4"; sourceTree = "<group>"; };
+		0BE8252F1E22BFC60014F9C7 /* 32.盲人摸象.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "32.盲人摸象.mp4"; sourceTree = "<group>"; };
+		0BE825301E22BFC60014F9C7 /* 33.学数学-对称.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "33.学数学-对称.mp4"; sourceTree = "<group>"; };
+		0BE825311E22BFC60014F9C7 /* 34.圆圆的小熊.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "34.圆圆的小熊.mp4"; sourceTree = "<group>"; };
+		0BE825321E22BFC60014F9C7 /* 35.杯弓蛇影.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "35.杯弓蛇影.mp4"; sourceTree = "<group>"; };
+		0BE825331E22BFC60014F9C7 /* 36.掩耳盗铃.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "36.掩耳盗铃.mp4"; sourceTree = "<group>"; };
+		0BE825341E22BFC60014F9C7 /* 37.拔苗助长.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "37.拔苗助长.mp4"; sourceTree = "<group>"; };
+		0BE825351E22BFC60014F9C7 /* 38.愿望.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "38.愿望.mp4"; sourceTree = "<group>"; };
+		0BE825361E22BFC60014F9C7 /* 39.学数学-圆形.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "39.学数学-圆形.mp4"; sourceTree = "<group>"; };
+		0BE825371E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "40.智勇神狸的传说.mp4"; sourceTree = "<group>"; };
+		0BE825601E22BFF20014F9C7 /* ChildStory-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChildStory-Bridging-Header.h"; sourceTree = "<group>"; };
+		4078003FDEE5A6885BCB3094 /* Pods-ChildStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory.debug.xcconfig"; sourceTree = "<group>"; };
+		4F17A29843DC9384AD0B8F3E /* Pods-ChildStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63B585BE6109660709965AB /* libPods-ChildStory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +214,8 @@
 			children = (
 				0B2AB9D51E22BCF4005418C8 /* ChildStory */,
 				0B2AB9D41E22BCF4005418C8 /* Products */,
+				CC0E6BB8E33D2EA1EF36C60A /* Pods */,
+				90CE0F041F50EB47043CEDCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +230,132 @@
 		0B2AB9D51E22BCF4005418C8 /* ChildStory */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8250F1E22BFC60014F9C7 /* m */,
+				0BE824BE1E22BFBF0014F9C7 /* i */,
 				0B2AB9D61E22BCF4005418C8 /* AppDelegate.swift */,
 				0B2AB9D81E22BCF4005418C8 /* ViewController.swift */,
+				0BE824B91E22BFB70014F9C7 /* HomeCollectionViewController.swift */,
+				0BE824BA1E22BFB70014F9C7 /* Subtitles.swift */,
+				0BE824B61E22BFA30014F9C7 /* ArrData.swift */,
+				0BE824B81E22BFB70014F9C7 /* BootstrapBtn.swift */,
 				0B2AB9DA1E22BCF4005418C8 /* Main.storyboard */,
 				0B2AB9DD1E22BCF4005418C8 /* Assets.xcassets */,
 				0B2AB9DF1E22BCF4005418C8 /* LaunchScreen.storyboard */,
+				0BE825601E22BFF20014F9C7 /* ChildStory-Bridging-Header.h */,
 				0B2AB9E21E22BCF4005418C8 /* Info.plist */,
 			);
 			path = ChildStory;
+			sourceTree = "<group>";
+		};
+		0BE824BE1E22BFBF0014F9C7 /* i */ = {
+			isa = PBXGroup;
+			children = (
+				0BE824BF1E22BFBF0014F9C7 /* 01.png */,
+				0BE824C01E22BFBF0014F9C7 /* 02.png */,
+				0BE824C11E22BFBF0014F9C7 /* 03.png */,
+				0BE824C21E22BFBF0014F9C7 /* 04.png */,
+				0BE824C31E22BFBF0014F9C7 /* 05.png */,
+				0BE824C41E22BFBF0014F9C7 /* 06.png */,
+				0BE824C51E22BFBF0014F9C7 /* 07.png */,
+				0BE824C61E22BFBF0014F9C7 /* 08.png */,
+				0BE824C71E22BFBF0014F9C7 /* 09.png */,
+				0BE824C81E22BFBF0014F9C7 /* 10.png */,
+				0BE824C91E22BFBF0014F9C7 /* 11.png */,
+				0BE824CA1E22BFBF0014F9C7 /* 12.png */,
+				0BE824CB1E22BFBF0014F9C7 /* 13.png */,
+				0BE824CC1E22BFBF0014F9C7 /* 14.png */,
+				0BE824CD1E22BFBF0014F9C7 /* 15.png */,
+				0BE824CE1E22BFBF0014F9C7 /* 16.png */,
+				0BE824CF1E22BFBF0014F9C7 /* 17.png */,
+				0BE824D01E22BFBF0014F9C7 /* 18.png */,
+				0BE824D11E22BFBF0014F9C7 /* 19.png */,
+				0BE824D21E22BFBF0014F9C7 /* 20.png */,
+				0BE824D31E22BFBF0014F9C7 /* 21.png */,
+				0BE824D41E22BFBF0014F9C7 /* 22.png */,
+				0BE824D51E22BFBF0014F9C7 /* 23.png */,
+				0BE824D61E22BFBF0014F9C7 /* 24.png */,
+				0BE824D71E22BFBF0014F9C7 /* 25.png */,
+				0BE824D81E22BFBF0014F9C7 /* 26.png */,
+				0BE824D91E22BFBF0014F9C7 /* 27.png */,
+				0BE824DA1E22BFBF0014F9C7 /* 28.png */,
+				0BE824DB1E22BFBF0014F9C7 /* 29.png */,
+				0BE824DC1E22BFBF0014F9C7 /* 30.png */,
+				0BE824DD1E22BFBF0014F9C7 /* 31.png */,
+				0BE824DE1E22BFBF0014F9C7 /* 32.png */,
+				0BE824DF1E22BFBF0014F9C7 /* 33.png */,
+				0BE824E01E22BFBF0014F9C7 /* 34.png */,
+				0BE824E11E22BFBF0014F9C7 /* 35.png */,
+				0BE824E21E22BFBF0014F9C7 /* 36.png */,
+				0BE824E31E22BFBF0014F9C7 /* 37.png */,
+				0BE824E41E22BFBF0014F9C7 /* 38.png */,
+				0BE824E51E22BFBF0014F9C7 /* 39.png */,
+				0BE824E61E22BFBF0014F9C7 /* 40.png */,
+			);
+			path = i;
+			sourceTree = "<group>";
+		};
+		0BE8250F1E22BFC60014F9C7 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				0BE825101E22BFC60014F9C7 /* 01.小马过河.mp4 */,
+				0BE825111E22BFC60014F9C7 /* 02.为什么要刷牙.mp4 */,
+				0BE825121E22BFC60014F9C7 /* 03.龟兔赛跑.mp4 */,
+				0BE825131E22BFC60014F9C7 /* 04.磨杵成针.mp4 */,
+				0BE825141E22BFC60014F9C7 /* 05.愚公移山.mp4 */,
+				0BE825151E22BFC60014F9C7 /* 06.小猫钓鱼.mp4 */,
+				0BE825161E22BFC60014F9C7 /* 07.乌鸦喝水.mp4 */,
+				0BE825171E22BFC60014F9C7 /* 08.井底之蛙.mp4 */,
+				0BE825181E22BFC60014F9C7 /* 09.我从哪里来.mp4 */,
+				0BE825191E22BFC60014F9C7 /* 10.守株待兔.mp4 */,
+				0BE8251A1E22BFC60014F9C7 /* 11.小猴子下山.mp4 */,
+				0BE8251B1E22BFC60014F9C7 /* 12.青蛙王子.mp4 */,
+				0BE8251C1E22BFC60014F9C7 /* 13.爱护眼睛.mp4 */,
+				0BE8251D1E22BFC60014F9C7 /* 14.小蝌蚪找妈妈.mp4 */,
+				0BE8251E1E22BFC60014F9C7 /* 15.月亮上的帽子.mp4 */,
+				0BE8251F1E22BFC60014F9C7 /* 16.蚂蚁报恩.mp4 */,
+				0BE825201E22BFC60014F9C7 /* 17.孔融让梨.mp4 */,
+				0BE825211E22BFC60014F9C7 /* 18.狡猾的狐狸.mp4 */,
+				0BE825221E22BFC60014F9C7 /* 19.狼来了.mp4 */,
+				0BE825231E22BFC60014F9C7 /* 20.皇帝的新装上.mp4 */,
+				0BE825241E22BFC60014F9C7 /* 21.皇帝的新装下.mp4 */,
+				0BE825251E22BFC60014F9C7 /* 22.抬着驴的父子.mp4 */,
+				0BE825261E22BFC60014F9C7 /* 23.狐狸和乌鸦.mp4 */,
+				0BE825271E22BFC60014F9C7 /* 24.狼和小羊.mp4 */,
+				0BE825281E22BFC60014F9C7 /* 25.狐狸与葡萄.mp4 */,
+				0BE825291E22BFC60014F9C7 /* 26.狐假虎威.mp4 */,
+				0BE8252A1E22BFC60014F9C7 /* 27.小卡车.mp4 */,
+				0BE8252B1E22BFC60014F9C7 /* 28.刻舟求剑.mp4 */,
+				0BE8252C1E22BFC60014F9C7 /* 29.学数学-排序.mp4 */,
+				0BE8252D1E22BFC60014F9C7 /* 30.画蛇添足.mp4 */,
+				0BE8252E1E22BFC60014F9C7 /* 31.不要乱扔垃圾.mp4 */,
+				0BE8252F1E22BFC60014F9C7 /* 32.盲人摸象.mp4 */,
+				0BE825301E22BFC60014F9C7 /* 33.学数学-对称.mp4 */,
+				0BE825311E22BFC60014F9C7 /* 34.圆圆的小熊.mp4 */,
+				0BE825321E22BFC60014F9C7 /* 35.杯弓蛇影.mp4 */,
+				0BE825331E22BFC60014F9C7 /* 36.掩耳盗铃.mp4 */,
+				0BE825341E22BFC60014F9C7 /* 37.拔苗助长.mp4 */,
+				0BE825351E22BFC60014F9C7 /* 38.愿望.mp4 */,
+				0BE825361E22BFC60014F9C7 /* 39.学数学-圆形.mp4 */,
+				0BE825371E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 */,
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		90CE0F041F50EB47043CEDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CA3B233DB0F5639FB27279 /* libPods-ChildStory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0E6BB8E33D2EA1EF36C60A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4078003FDEE5A6885BCB3094 /* Pods-ChildStory.debug.xcconfig */,
+				4F17A29843DC9384AD0B8F3E /* Pods-ChildStory.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +365,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B2AB9E51E22BCF4005418C8 /* Build configuration list for PBXNativeTarget "ChildStory" */;
 			buildPhases = (
+				545B9DB51899126A3C19A624 /* [CP] Check Pods Manifest.lock */,
 				0B2AB9CF1E22BCF4005418C8 /* Sources */,
 				0B2AB9D01E22BCF4005418C8 /* Frameworks */,
 				0B2AB9D11E22BCF4005418C8 /* Resources */,
+				2D4710B09795639059B3C438 /* [CP] Embed Pods Frameworks */,
+				F6BDC6A4AECBB56BBF1D445A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +421,141 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE825061E22BFBF0014F9C7 /* 32.png in Resources */,
+				0BE8255E1E22BFC60014F9C7 /* 39.学数学-圆形.mp4 in Resources */,
+				0BE825091E22BFBF0014F9C7 /* 35.png in Resources */,
+				0BE8254A1E22BFC60014F9C7 /* 19.狼来了.mp4 in Resources */,
+				0BE825391E22BFC60014F9C7 /* 02.为什么要刷牙.mp4 in Resources */,
+				0BE824FD1E22BFBF0014F9C7 /* 23.png in Resources */,
+				0BE8254C1E22BFC60014F9C7 /* 21.皇帝的新装下.mp4 in Resources */,
+				0BE8255A1E22BFC60014F9C7 /* 35.杯弓蛇影.mp4 in Resources */,
+				0BE8253F1E22BFC60014F9C7 /* 08.井底之蛙.mp4 in Resources */,
+				0BE8254D1E22BFC60014F9C7 /* 22.抬着驴的父子.mp4 in Resources */,
+				0BE825081E22BFBF0014F9C7 /* 34.png in Resources */,
+				0BE8250E1E22BFBF0014F9C7 /* 40.png in Resources */,
+				0BE825581E22BFC60014F9C7 /* 33.学数学-对称.mp4 in Resources */,
+				0BE825041E22BFBF0014F9C7 /* 30.png in Resources */,
+				0BE824F21E22BFBF0014F9C7 /* 12.png in Resources */,
+				0BE8253D1E22BFC60014F9C7 /* 06.小猫钓鱼.mp4 in Resources */,
+				0BE824F61E22BFBF0014F9C7 /* 16.png in Resources */,
+				0BE8250D1E22BFBF0014F9C7 /* 39.png in Resources */,
+				0BE824F01E22BFBF0014F9C7 /* 10.png in Resources */,
+				0BE825511E22BFC60014F9C7 /* 26.狐假虎威.mp4 in Resources */,
+				0BE825031E22BFBF0014F9C7 /* 29.png in Resources */,
+				0BE8254B1E22BFC60014F9C7 /* 20.皇帝的新装上.mp4 in Resources */,
+				0BE8253A1E22BFC60014F9C7 /* 03.龟兔赛跑.mp4 in Resources */,
+				0BE824ED1E22BFBF0014F9C7 /* 07.png in Resources */,
+				0BE825001E22BFBF0014F9C7 /* 26.png in Resources */,
+				0BE8253C1E22BFC60014F9C7 /* 05.愚公移山.mp4 in Resources */,
+				0BE824E81E22BFBF0014F9C7 /* 02.png in Resources */,
+				0BE825471E22BFC60014F9C7 /* 16.蚂蚁报恩.mp4 in Resources */,
+				0BE825431E22BFC60014F9C7 /* 12.青蛙王子.mp4 in Resources */,
+				0BE825551E22BFC60014F9C7 /* 30.画蛇添足.mp4 in Resources */,
+				0BE8255F1E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 in Resources */,
+				0BE825491E22BFC60014F9C7 /* 18.狡猾的狐狸.mp4 in Resources */,
+				0BE8254F1E22BFC60014F9C7 /* 24.狼和小羊.mp4 in Resources */,
+				0BE8255B1E22BFC60014F9C7 /* 36.掩耳盗铃.mp4 in Resources */,
+				0BE824F71E22BFBF0014F9C7 /* 17.png in Resources */,
+				0BE8250A1E22BFBF0014F9C7 /* 36.png in Resources */,
+				0BE825451E22BFC60014F9C7 /* 14.小蝌蚪找妈妈.mp4 in Resources */,
+				0BE824EE1E22BFBF0014F9C7 /* 08.png in Resources */,
+				0BE825521E22BFC60014F9C7 /* 27.小卡车.mp4 in Resources */,
+				0BE8255C1E22BFC60014F9C7 /* 37.拔苗助长.mp4 in Resources */,
 				0B2AB9E11E22BCF4005418C8 /* LaunchScreen.storyboard in Resources */,
+				0BE825441E22BFC60014F9C7 /* 13.爱护眼睛.mp4 in Resources */,
+				0BE8254E1E22BFC60014F9C7 /* 23.狐狸和乌鸦.mp4 in Resources */,
+				0BE824F11E22BFBF0014F9C7 /* 11.png in Resources */,
+				0BE825421E22BFC60014F9C7 /* 11.小猴子下山.mp4 in Resources */,
+				0BE824F91E22BFBF0014F9C7 /* 19.png in Resources */,
+				0BE824FC1E22BFBF0014F9C7 /* 22.png in Resources */,
 				0B2AB9DE1E22BCF4005418C8 /* Assets.xcassets in Resources */,
+				0BE825561E22BFC60014F9C7 /* 31.不要乱扔垃圾.mp4 in Resources */,
+				0BE824E71E22BFBF0014F9C7 /* 01.png in Resources */,
+				0BE824FE1E22BFBF0014F9C7 /* 24.png in Resources */,
+				0BE825071E22BFBF0014F9C7 /* 33.png in Resources */,
+				0BE8250C1E22BFBF0014F9C7 /* 38.png in Resources */,
+				0BE8253E1E22BFC60014F9C7 /* 07.乌鸦喝水.mp4 in Resources */,
+				0BE825411E22BFC60014F9C7 /* 10.守株待兔.mp4 in Resources */,
+				0BE825401E22BFC60014F9C7 /* 09.我从哪里来.mp4 in Resources */,
+				0BE825381E22BFC60014F9C7 /* 01.小马过河.mp4 in Resources */,
+				0BE825531E22BFC60014F9C7 /* 28.刻舟求剑.mp4 in Resources */,
+				0BE824F51E22BFBF0014F9C7 /* 15.png in Resources */,
+				0BE825051E22BFBF0014F9C7 /* 31.png in Resources */,
+				0BE825481E22BFC60014F9C7 /* 17.孔融让梨.mp4 in Resources */,
+				0BE825461E22BFC60014F9C7 /* 15.月亮上的帽子.mp4 in Resources */,
+				0BE825591E22BFC60014F9C7 /* 34.圆圆的小熊.mp4 in Resources */,
+				0BE825501E22BFC60014F9C7 /* 25.狐狸与葡萄.mp4 in Resources */,
+				0BE824F81E22BFBF0014F9C7 /* 18.png in Resources */,
+				0BE824EC1E22BFBF0014F9C7 /* 06.png in Resources */,
+				0BE824EA1E22BFBF0014F9C7 /* 04.png in Resources */,
+				0BE825011E22BFBF0014F9C7 /* 27.png in Resources */,
+				0BE824E91E22BFBF0014F9C7 /* 03.png in Resources */,
+				0BE824FF1E22BFBF0014F9C7 /* 25.png in Resources */,
+				0BE824EB1E22BFBF0014F9C7 /* 05.png in Resources */,
+				0BE824FA1E22BFBF0014F9C7 /* 20.png in Resources */,
+				0BE825541E22BFC60014F9C7 /* 29.学数学-排序.mp4 in Resources */,
+				0BE825021E22BFBF0014F9C7 /* 28.png in Resources */,
+				0BE825571E22BFC60014F9C7 /* 32.盲人摸象.mp4 in Resources */,
+				0BE824F31E22BFBF0014F9C7 /* 13.png in Resources */,
+				0BE8255D1E22BFC60014F9C7 /* 38.愿望.mp4 in Resources */,
+				0BE8250B1E22BFBF0014F9C7 /* 37.png in Resources */,
+				0BE824FB1E22BFBF0014F9C7 /* 21.png in Resources */,
+				0BE824EF1E22BFBF0014F9C7 /* 09.png in Resources */,
+				0BE8253B1E22BFC60014F9C7 /* 04.磨杵成针.mp4 in Resources */,
 				0B2AB9DC1E22BCF4005418C8 /* Main.storyboard in Resources */,
+				0BE824F41E22BFBF0014F9C7 /* 14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4710B09795639059B3C438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545B9DB51899126A3C19A624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BDC6A4AECBB56BBF1D445A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B2AB9CF1E22BCF4005418C8 /* Sources */ = {
@@ -138,7 +563,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2AB9D91E22BCF4005418C8 /* ViewController.swift in Sources */,
+				0BE824B71E22BFA30014F9C7 /* ArrData.swift in Sources */,
 				0B2AB9D71E22BCF4005418C8 /* AppDelegate.swift in Sources */,
+				0BE824BD1E22BFB70014F9C7 /* Subtitles.swift in Sources */,
+				0BE824BC1E22BFB70014F9C7 /* HomeCollectionViewController.swift in Sources */,
+				0BE824BB1E22BFB70014F9C7 /* BootstrapBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +688,7 @@
 		};
 		0B2AB9E61E22BCF4005418C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4078003FDEE5A6885BCB3094 /* Pods-ChildStory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZNVH9D6AWM;
@@ -267,12 +697,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xigk.childstory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChildStory/ChildStory-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0B2AB9E71E22BCF4005418C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F17A29843DC9384AD0B8F3E /* Pods-ChildStory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZNVH9D6AWM;
@@ -281,6 +713,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xigk.childstory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChildStory/ChildStory-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +737,7 @@
 				0B2AB9E71E22BCF4005418C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

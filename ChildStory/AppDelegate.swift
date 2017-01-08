@@ -2,20 +2,35 @@
 //  AppDelegate.swift
 //  ChildStory
 //
-//  Created by ZhangLiangZhi on 2017/1/9.
-//  Copyright © 2017年 xigk. All rights reserved.
+//  Created by ZhangLiangZhi on 2016/11/20.
+//  Copyright © 2016年 xigk. All rights reserved.
 //
 
 import UIKit
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        // umeng友盟统计 583172f3f29d98734a0011aa
+//        MobClick.setLogEnabled(true)
+        let obj = UMAnalyticsConfig()
+        obj.appKey = "583172f3f29d98734a0011aa"
+        obj.channelId = "App Store"
+        MobClick.start(withConfigure: obj)
+        
+        // umeng统计观看次数
+        MobClick.event("UMLOGIN")
+        
+//        print(Bundle.main.infoDictionary?["CFBundleVersion"])
+        
         return true
     }
 
