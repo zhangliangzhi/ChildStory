@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+azip/
+m/
 
 ## Various settings
 *.pbxuser
