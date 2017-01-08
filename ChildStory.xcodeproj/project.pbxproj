@@ -96,6 +96,7 @@
 		0BE8255D1E22BFC60014F9C7 /* 38.愿望.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825351E22BFC60014F9C7 /* 38.愿望.mp4 */; };
 		0BE8255E1E22BFC60014F9C7 /* 39.学数学-圆形.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825361E22BFC60014F9C7 /* 39.学数学-圆形.mp4 */; };
 		0BE8255F1E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BE825371E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 */; };
+		0BE825621E22C1280014F9C7 /* DescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE825611E22C1280014F9C7 /* DescViewController.swift */; };
 		F63B585BE6109660709965AB /* libPods-ChildStory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CA3B233DB0F5639FB27279 /* libPods-ChildStory.a */; };
 /* End PBXBuildFile section */
 
@@ -193,6 +194,7 @@
 		0BE825361E22BFC60014F9C7 /* 39.学数学-圆形.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "39.学数学-圆形.mp4"; sourceTree = "<group>"; };
 		0BE825371E22BFC60014F9C7 /* 40.智勇神狸的传说.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "40.智勇神狸的传说.mp4"; sourceTree = "<group>"; };
 		0BE825601E22BFF20014F9C7 /* ChildStory-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChildStory-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BE825611E22C1280014F9C7 /* DescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescViewController.swift; sourceTree = "<group>"; };
 		4078003FDEE5A6885BCB3094 /* Pods-ChildStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory.debug.xcconfig"; sourceTree = "<group>"; };
 		4F17A29843DC9384AD0B8F3E /* Pods-ChildStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildStory/Pods-ChildStory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +236,7 @@
 				0BE824BE1E22BFBF0014F9C7 /* i */,
 				0B2AB9D61E22BCF4005418C8 /* AppDelegate.swift */,
 				0B2AB9D81E22BCF4005418C8 /* ViewController.swift */,
+				0BE825611E22C1280014F9C7 /* DescViewController.swift */,
 				0BE824B91E22BFB70014F9C7 /* HomeCollectionViewController.swift */,
 				0BE824BA1E22BFB70014F9C7 /* Subtitles.swift */,
 				0BE824B61E22BFA30014F9C7 /* ArrData.swift */,
@@ -565,6 +568,7 @@
 				0B2AB9D91E22BCF4005418C8 /* ViewController.swift in Sources */,
 				0BE824B71E22BFA30014F9C7 /* ArrData.swift in Sources */,
 				0B2AB9D71E22BCF4005418C8 /* AppDelegate.swift in Sources */,
+				0BE825621E22C1280014F9C7 /* DescViewController.swift in Sources */,
 				0BE824BD1E22BFB70014F9C7 /* Subtitles.swift in Sources */,
 				0BE824BC1E22BFB70014F9C7 /* HomeCollectionViewController.swift in Sources */,
 				0BE824BB1E22BFB70014F9C7 /* BootstrapBtn.swift in Sources */,
