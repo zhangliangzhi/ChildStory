@@ -24,7 +24,8 @@ class DescViewController: UIViewController {
 //        successbtn.addTarget(self, action:#selector(pj), for: UIControlEvents.touchUpInside)
 
     }
-    
+ 
+/*
     @IBAction func GoAppStore(_ sender: Any) {
         //弹出消息框
         let alertController = UIAlertController(title: "^_^😊给我一个评价吧！",
@@ -39,6 +40,7 @@ class DescViewController: UIViewController {
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
     }
+*/
     
     // 跳转到应用的AppStore页页面
     func gotoAppStore() {

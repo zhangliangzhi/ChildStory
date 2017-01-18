@@ -97,25 +97,11 @@
                                 <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uK4-Xt-SVC">
-                                <rect key="frame" x="8" y="449" width="50" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="LXV-be-5Do"/>
-                                    <constraint firstAttribute="width" constant="50" id="jze-ud-Lzv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="评价"/>
-                                <connections>
-                                    <action selector="GoAppStore:" destination="0Cj-C9-a45" eventType="touchUpInside" id="7To-hl-dfA"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TcZ-cO-atI" firstAttribute="top" secondItem="4MO-kv-EL6" secondAttribute="bottom" constant="5" id="0GB-1j-ZFf"/>
-                            <constraint firstItem="uK4-Xt-SVC" firstAttribute="leading" secondItem="SJy-ps-w5o" secondAttribute="leading" constant="8" id="Mtr-Xv-D1b"/>
                             <constraint firstAttribute="trailing" secondItem="4MO-kv-EL6" secondAttribute="trailing" constant="5" id="R4n-C1-JxB"/>
-                            <constraint firstAttribute="bottom" secondItem="uK4-Xt-SVC" secondAttribute="bottom" constant="1" id="Ska-Ze-tbJ"/>
                             <constraint firstAttribute="trailing" secondItem="2Gr-Pp-74K" secondAttribute="trailing" constant="10" id="UPp-r9-dRP"/>
                             <constraint firstItem="2Gr-Pp-74K" firstAttribute="leading" secondItem="SJy-ps-w5o" secondAttribute="leading" constant="10" id="dMD-ln-JyL"/>
                             <constraint firstItem="2Gr-Pp-74K" firstAttribute="centerX" secondItem="SJy-ps-w5o" secondAttribute="centerX" id="gIw-H9-MYc"/>
